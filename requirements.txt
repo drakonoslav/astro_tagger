@@ -1,0 +1,4 @@
+skyfield>=1.46
+numpy
+Pillow
+pypdf

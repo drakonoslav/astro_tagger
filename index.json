@@ -1,0 +1,9 @@
+{
+  "schema": "kernel_index/v1",
+  "policies": {
+    "modern":   ["de440s.bsp", "de440.bsp"],
+    "legacy":   ["de421.bsp"],
+    "longspan": ["de440.bsp"]
+  },
+  "kernels": {}
+}
