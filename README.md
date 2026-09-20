@@ -6,6 +6,9 @@ A small Python toolkit that turns "this photo is from about 1978" into a durable
 
 In 2076 nobody will trust “taken 12 June 1978.” They might still trust: these bits, this kernel hash, this TDB, this BCRS state.
 
+1.  It’s a receipt, not a notary. The math is reproducible; the time source is only as good as EXIF / filename / --utc. Say that in the same breath as the hook. That’s what makes it hardcore instead of marketing.
+2.  The capsule is the sidecar + the kernel hash, not the original file. Originals stay untouched. The durable object is <file>.astro.json.
+
 ## What it's good for
 
 - **Archival provenance that still makes sense in 50 years.** Calendars, time zones and file systems change. Barycentric position, TDB seconds since J2000 and a hashed ephemeris don't.
