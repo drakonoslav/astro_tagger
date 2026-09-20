@@ -1,0 +1,9 @@
+{
+  "site": {
+    "name": "MySite",
+    "agent_id": "CENTRAL",
+    "lat_deg": null,
+    "lon_deg": null,
+    "alt_m": 0.0
+  }
+}

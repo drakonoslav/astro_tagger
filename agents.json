@@ -1,31 +1,26 @@
 {
   "CENTRAL": {
     "role": "CENTRAL",
-    "home_body": "IAU_EARTH",
-    "home_star": "SUN"
-  },
-  "Agent-LocalSite": {
-    "role": "CENTRAL",
-    "home_body": "IAU_EARTH",
+    "home_body": "EARTH",
     "home_star": "SUN"
   },
   "Base-Planetoid": {
     "role": "REMOTE_BASE",
-    "home_body": "IAU_EARTH",
-    "home_star": "SUN"
+    "home_body": "EARTH",
+    "home_star": "SUN",
+    "site": {"name": "Example Earth Base", "lat_deg": -77.85, "lon_deg": 166.67, "alt_m": 10.0}
   },
   "MarsBase-Alpha": {
     "role": "REMOTE_BASE",
-    "home_body": "IAU_MARS",
+    "home_body": "MARS",
     "home_star": "SUN",
-    "site": {"name": "Example Mars Site", "lat_deg": 18.4, "lon_deg": 77.5, "h_m": -2600.0}
+    "site": {"name": "Example Mars Site", "lat_deg": 18.4, "lon_deg": 77.5, "alt_m": -2600.0}
   },
   "Voyager-2": {
     "role": "EXPEDITION_VESSEL",
-    "home_body": "IAU_EARTH",
+    "home_body": "EARTH",
     "home_star": "SUN",
     "home_star_runner": "SUN",
-    "travel_mode": "classical",
-    "soi_strategy": "auto"
+    "travel_mode": "classical"
   }
 }
