@@ -4,6 +4,8 @@
 
 A small Python toolkit that turns "this photo is from about 1978" into a durable, reproducible record: the file's SHA-256, the timestamp and how it was chosen, an observer position and velocity computed from a named JPL ephemeris, and the SHA-256 of the exact ephemeris file used. Files are never modified. Everything lands in a sidecar next to them.
 
+In 2076 nobody will trust “taken 12 June 1978.” They might still trust: these bits, this kernel hash, this TDB, this BCRS state.
+
 ## What it's good for
 
 - **Archival provenance that still makes sense in 50 years.** Calendars, time zones and file systems change. Barycentric position, TDB seconds since J2000 and a hashed ephemeris don't.
